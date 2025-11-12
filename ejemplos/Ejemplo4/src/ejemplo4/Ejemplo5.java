@@ -24,6 +24,8 @@ public class Ejemplo5 {
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
 
+        // Los usuarios que ingresen una cuidad diferente de Loja el 
+        //acceso es correcto 
         if (!ciudad.equals("Loja")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
@@ -32,6 +34,8 @@ public class Ejemplo5 {
 
         int numero = 10;
 
+        // La variable tiene un valor y si al ser diferente de este valor,correcto 
+        
         if (numero != 10) {
             System.out.println("correcto");
         }
