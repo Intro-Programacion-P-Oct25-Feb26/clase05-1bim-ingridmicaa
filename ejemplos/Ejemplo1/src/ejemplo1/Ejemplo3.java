@@ -22,7 +22,7 @@ public class Ejemplo3 {
         entrada.useLocale(Locale.US);
         /* 
         double promedio;
-        System.out.println("Ingrese un valor para analizar ");
+        System.out.println("Ingresee un valor para analizar ");
         double promedio= entrada.nextDouble();
         */
         //Ingrese por teclado el limite de notas
