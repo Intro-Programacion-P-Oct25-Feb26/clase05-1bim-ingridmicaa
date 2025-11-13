@@ -25,11 +25,11 @@ public class Ejemplo6 {
         // >= 3 and < 5 Recuperación
         // <=0 ando < 3 Reprobado
         // cualquier otra nota, será nota fuera de rango 
-        double promedio = 2.90;
+        double promedio = 10.6;
 
     if (promedio > 10) {
-            System.out.printf("Nota fuera de rango: "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("Nota  %.2f esta fuera de rango: "
+                   , promedio);
         } else {
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
@@ -68,4 +68,5 @@ public class Ejemplo6 {
 
     }
     
+}
 }
